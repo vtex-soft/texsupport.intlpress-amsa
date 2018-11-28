@@ -42,7 +42,7 @@ Use `amsa-template.tex` as a template.
 
 ### Document class options
 
-For the SII journal `amsa` option must be set in a `\documentclass[]{ipart}`:
+For the AMSA journal `amsa` option must be set in a `\documentclass[]{ipart}`:
 ```latex
 \documentclass[amsa]{ipart}
 ```
