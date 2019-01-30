@@ -80,7 +80,7 @@ The preamble of your LaTeX document should look like this:
 
 \begin{frontmatter}
 
-\title{A Sample Document\protect\thanksref{T1}}
+\title{Title\protect\thanksref{T1}}
 \thankstext{T1}{Footnote to the title with the `thankstext' command.}
 
 \begin{aug}
