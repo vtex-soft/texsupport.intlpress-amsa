@@ -12,7 +12,7 @@
 ## About
 
 Author support service provides LaTeX style files and `*.tex` file templates designed for International Press journal
-[Annals of Mathematical Sciences and Applications (AMSA)](http://www.intlpress.com/AMSA/) articles.
+[Annals of Mathematical Sciences and Applications (AMSA)](http://www.intlpress.com/AMSA) articles.
 
 ## Package content
 
