@@ -17,7 +17,7 @@
 %%
 \NeedsTeXFormat{LaTeX2e}
 \def\ipfmt@name{ipart-layout-main}
-\def\ipfmt@version{2026/03/30 v2.0.14}
+\def\ipfmt@version{2026/05/25 v2.0.15}
 \ProvidesPackage{\ipfmt@name}
     [\ipfmt@version INTLPRESS journal main layout style]
 
@@ -74,7 +74,10 @@
 \DeclareFontShape{OMX}{lmex}{m}{n}{<-> lmex10}{}
 
 \IfFileExists{fileinfo.sty}{%
-    \RequirePackage{fileinfo}\getFileInfo
+    \ifdefined\jobstart@date@info
+    \else
+        \RequirePackage{fileinfo}\getFileInfo
+    \fi
     }{%
     \xdef\jobstart@date@info{\the\year\two@digits{\the\month}\two@digits{\the\day}}%
     }
